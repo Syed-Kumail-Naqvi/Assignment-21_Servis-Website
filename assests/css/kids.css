@@ -1,0 +1,123 @@
+header {
+    position: fixed;
+}
+nav {
+    width: 100%;
+    display: flex;
+}
+img {
+    width: 250px;
+}
+
+.nav-left {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+.items {
+    padding-top: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+.item1, .item2, .item3, .item4, .item5, .item6,
+.item7, .item8, .item9, .item10, .item11, .item12 {
+    border: 1px gray solid;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.nav-right {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    position: fixed;
+    right: 30px;
+}
+.main {
+    width: 100%;
+    display: flex;
+    background-color: wheat
+}
+ul, li {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 380px;
+}
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.black {
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 15px;
+}
+.black2 {
+    background-color: black;
+    color: white;
+}
+.row2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+.row3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+footer {
+    padding-top: 20px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+.arrow {
+    width: 20px;
+}
+.headsy {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+input {
+    border-style: none;
+}
+.lowtext {
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+li, a:hover {
+    color: darkred;
+}
+.text {
+    text-align: center;
+}
+.middle {
+    display: flex;
+}
+.middle, li {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;    
+}
